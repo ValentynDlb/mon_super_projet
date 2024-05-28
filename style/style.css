@@ -1,0 +1,77 @@
+/* Réglages généraux */
+
+@font-face {
+    font-family: 'race sport';
+    src: url('./Race\ Sport.ttf');
+
+}
+
+@font-face {
+    font-family: 'astonpoliz';
+    src: url('./Astonpoliz.ttf');
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    font-family: 'astonpoliz', sans-serif;
+}
+
+
+
+
+/* Header */
+
+#header-haut {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #355e5e;
+    color: #ffffff;
+    margin: 0px;
+    padding: 15px;
+    width: 100vw;
+    height: 20vh;
+
+}
+
+#header-logo {
+    width: 25vw;
+}
+
+#header-titre {
+    width: 50vw;
+}
+
+#header-login {
+    width: 25vw;
+}
+
+
+
+
+h1{
+    color: #ff7b00;
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 2px black;
+    font-family: Race Sport,sans-serif;
+}
+
+
+#logo {
+    height: 15vh;
+}
+
+/*mise en forme de formulaire*/
+
+input, label{
+    display: block;
+}
